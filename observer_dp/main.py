@@ -14,8 +14,8 @@ if __name__ == "__main__":
     sub.attach(tab)
     sub.attach(tv)
 
-    sub.change("coming new version - 2.0")
+    sub.version_update(2.0)
 
     sub.detach(tv)
 
-    sub.change("coming new version - 3.0")
+    sub.version_update(3.0)
